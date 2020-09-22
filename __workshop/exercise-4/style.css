@@ -1,12 +1,13 @@
-#centered {
+.centered {
   text-align: center;
 }
 
 .title {
   font-size: 3rem;
+  text-align: center;
 }
 
-subtitle {
+.subtitle {
   font-size: 1.5rem;
 }
 
@@ -23,7 +24,8 @@ subtitle {
   background: grey;
 }
 
-monospaced {
+.monospaced {
+  font-size: .6em;
   font-family: monospace;
 }
 

@@ -1,15 +1,24 @@
 img {
   max-width: 300px;
 }
-
+ 
 .img1 {
 }
 
 .img2 {
+  display: block;
+  visibility: hidden;
 }
 
 .img3 {
+  position: absolute; 
+  left: 50%; 
+  top: 50%; 
+  margin:-100px 0 0 -150px;
 }
 
 .img4 {
+  position:absolute;
+  bottom:0;
+  right:0;
 }

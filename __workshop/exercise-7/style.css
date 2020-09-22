@@ -17,3 +17,64 @@ li {
 }
 
 /* ADD CSS BELOW */
+body {
+  padding: 32px;
+  max-width: 1320px;
+  
+  
+}
+
+h1,
+h2, 
+h3{
+  font-family:  "Bangers", cursive;
+  margin-top: 15px;
+}
+
+h1 {
+  margin-left:50%;
+  font-size: 48px;  
+}
+
+h2 {
+  text-align: left;
+  font-size: 32px;  
+}
+
+h3 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-top: 20px;  
+  list-style: none;
+  display: grid;
+  grid-auto-flow: column;
+  grid-column-gap: 15px;
+  
+}
+.cute {
+  display: flex;
+  flex-direction: row;
+  display: grid;
+  grid-auto-flow: column;
+  grid-column-gap: 10px;
+  
+}
+
+.col {
+  border-style: dashed;
+  background-color: rgb(226, 226, 226);
+  border-color:grey;
+  border-width: 3px;
+  padding:15px;
+}
+
+.image {
+  max-height: 175px;
+  border-radius: 5px;
+}
